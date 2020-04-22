@@ -1,7 +1,7 @@
 package hdfs
 
 import (
-	hdfs "github.com/colinmarc/hdfs/internal/protocol/hadoop_hdfs"
+	hdfs "github.com/reborn-go/hdfs/internal/protocol/hadoop_hdfs"
 )
 
 // AllowSnapshots marks a directory as available for snapshots.

@@ -8,9 +8,9 @@ import (
 	"os/user"
 	"time"
 
-	"github.com/colinmarc/hdfs"
-	"github.com/colinmarc/hdfs/hadoopconf"
 	"github.com/pborman/getopt"
+	"github.com/reborn-go/hdfs"
+	"github.com/reborn-go/hdfs/hadoopconf"
 )
 
 // TODO: cp, tree, test, trash

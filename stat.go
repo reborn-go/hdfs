@@ -5,8 +5,8 @@ import (
 	"path"
 	"time"
 
-	hdfs "github.com/colinmarc/hdfs/internal/protocol/hadoop_hdfs"
 	"github.com/golang/protobuf/proto"
+	hdfs "github.com/reborn-go/hdfs/internal/protocol/hadoop_hdfs"
 )
 
 // FileInfo implements os.FileInfo, and provides information about a file or

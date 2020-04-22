@@ -8,8 +8,8 @@ import (
 	"net"
 	"time"
 
-	hdfs "github.com/colinmarc/hdfs/internal/protocol/hadoop_hdfs"
 	"github.com/golang/protobuf/proto"
+	hdfs "github.com/reborn-go/hdfs/internal/protocol/hadoop_hdfs"
 )
 
 var ErrEndOfBlock = errors.New("end of block")

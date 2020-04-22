@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	hadoop "github.com/colinmarc/hdfs/internal/protocol/hadoop_common"
 	"github.com/golang/protobuf/proto"
+	hadoop "github.com/reborn-go/hdfs/internal/protocol/hadoop_common"
 )
 
 var errUnexpectedSequenceNumber = errors.New("unexpected sequence number")

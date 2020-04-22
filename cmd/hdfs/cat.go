@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/colinmarc/hdfs"
+	"github.com/reborn-go/hdfs"
 )
 
 const tailSearchSize int64 = 16384

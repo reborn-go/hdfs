@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
-	hdfs "github.com/colinmarc/hdfs/internal/protocol/hadoop_hdfs"
-	"github.com/colinmarc/hdfs/internal/rpc"
 	"github.com/golang/protobuf/proto"
+	hdfs "github.com/reborn-go/hdfs/internal/protocol/hadoop_hdfs"
+	"github.com/reborn-go/hdfs/internal/rpc"
 )
 
 // A FileReader represents an existing file or directory in HDFS. It implements
